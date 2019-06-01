@@ -2,10 +2,6 @@
   "name": "eleventy-sample",
   "version": "1.0.0",
   "description": "",
-  "main": ".eleventy.js",
-  "dependencies": {
-    
-  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "@11ty/eleventy": "^0.8.3",
@@ -13,8 +9,9 @@
     "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp watch & npx eleventy --serve",
+    "now-build": "npx eleventy"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Fardeem Munir",
+  "license": "MIT"
 }
