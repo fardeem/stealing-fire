@@ -38,7 +38,7 @@ layout: layouts/base.njk
         <img src="{{ section.data.image }}" alt="">
       {% endif %}  
     
-      <div class="group">
+      <div class="group container--text">
         {% if section.data.title %}
           <h1>{{ section.data.title }}</h1>
         {% endif %}
@@ -47,6 +47,21 @@ layout: layouts/base.njk
       </div>
       
     {%- endfor -%}
+  </div>
+</section>
+
+<section class="s-faq">
+  <div class="container container--text">
+    <h1>FAQ</h1>
+
+    <dl class="s-lead__list">
+      {%- for question in collections.faq -%}
+        
+        <dt>{{ question.data.question }}</dt>
+        <dd>{{ question.templateContent | safe }}</dd>
+
+      {%- endfor -%}
+    </dl>
   </div>
 </section>
 
