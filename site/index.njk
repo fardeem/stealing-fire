@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+---
+<section class="s-lead">
+  <div class="container">
+    <p class="s-lead__desc">
+      {{ site.desc }}
+    </p>
+
+    <dl class="s-lead__list">
+      <dt>Dates</dt>
+      <dd>{{ site.dates }}</dd>
+
+      <dt>Time</dt>
+      <dd>{{ site.time }}</dd>
+  
+      <dt>Location</dt>
+      <dd>{{ site.location }}</dd>
+    </dl> 
+  </div>
+</section>
+
+<section class="s-buy-tickets">
+  <div class="container">
+    Seats are extremely limited.
+    <a href="/payment">
+      <button>
+        Buy tickets now
+      </button>
+    </a> 
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    {%- for section in collections.section -%}
+      {% if section.data.image %}
+        <img src="{{ section.data.image }}" alt="">
+      {% endif %}  
+    
+      <div class="group">
+        {% if section.data.title %}
+          <h1>{{ section.data.title }}</h1>
+        {% endif %}
+        
+        {{ section.templateContent | safe }}
+      </div>
+      
+    {%- endfor -%}
+  </div>
+</section>
+

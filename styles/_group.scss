@@ -1,0 +1,27 @@
+.group {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  border-image: linear-gradient(to bottom, #FF5722, #2996bf, #ad51a3) 1 100%;
+  margin-bottom: 2rem;
+
+  @media screen and (min-width: 700px) {
+    transform: skew(-2deg);
+  }
+
+  p {
+    @media screen and (min-width: 700px) {
+      transform: skew(2deg);
+    }
+  }
+
+  &:nth-of-type(odd) {
+    border-left-width: 0.3rem;
+    border-left-style: solid;
+  }
+
+  &:nth-of-type(even) {
+    border-right-width: 0.3rem;
+    border-right-style: solid;
+  }
+}
