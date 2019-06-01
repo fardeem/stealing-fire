@@ -29,6 +29,7 @@ h1, h2 {
 p {
   margin-top: 0;
   margin-bottom: 1.5em;
+  line-height: 1.5;
 }
 
 img {
@@ -70,6 +71,10 @@ button {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+
+  &--text {
+    max-width: 600px;
+  }
 }
 
 
