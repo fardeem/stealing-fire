@@ -6,7 +6,7 @@ gulp.task('sass', function(){
   return gulp.src('styles/**/*.scss')
     .pipe(sass()) // Using gulp-sass
     .pipe(cleanCSS({compatibility: 'ie8'})) // minify css
-    .pipe(gulp.dest('styles/'))
+    .pipe(gulp.dest('site/includes/css/'))
 });
 
 gulp.task('watch', function() {
