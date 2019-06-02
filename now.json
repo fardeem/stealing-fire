@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "stealingfire",
+  "alias": "stealingfire.maslab.org",
   "builds": [
     { 
       "src": "package.json",
