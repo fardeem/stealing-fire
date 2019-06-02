@@ -22,7 +22,7 @@ layout: layouts/base.njk
 
 <section class="s-buy-tickets">
   <div class="container">
-    Seats are extremely limited.
+    <span>Seats are extremely limited.</span>
     <a href="/payment">
       <button>
         Buy tickets now
@@ -31,7 +31,7 @@ layout: layouts/base.njk
   </div>
 </section>
 
-<section>
+<section class="s-features">
   <div class="container">
     {%- for section in collections.section -%}
       {% if section.data.image %}
