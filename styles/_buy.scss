@@ -7,14 +7,24 @@
     ),
     url(/assets/science.png);
   
-  padding: 10rem 1rem;
+  padding: 10rem 0;
   margin-bottom: 2rem;
   
   font-size: 1.5em;
   font-weight: 900;
 
+  span {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
   > .container {
     max-width: 1000px;
   }
 
+  a {
+    border: 0;    
+  }
 }

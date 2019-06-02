@@ -1,3 +1,9 @@
+.s-features {
+  & > .container {
+    padding: 0;
+  }
+}
+
 .group {
   margin: 0 auto;
   padding: 0 2rem;
