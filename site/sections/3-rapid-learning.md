@@ -2,6 +2,7 @@
 tags: section
 title: Rapid Learning
 image: https://source.unsplash.com/9HI8UJMSdZA/800x500
+date: 2019-01-03
 ---
 
 We have all been there. We are looking at the page, reading it for the 10th time with absolutely no clue what’s going on and feeling miserable. But we have a test tomorrow and this is supposedely how to prepare for an exam.

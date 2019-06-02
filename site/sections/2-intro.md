@@ -2,6 +2,7 @@
 tags: section
 title: 
 image: /assets/prometheus.jpg
+date: 2019-01-02
 ---
 
 STEALING FIRE is a workshop about accidental prometheans - participants in math and science olympiads who are using unconventional learning strategies, techniques in neuroscience and psychology to supercharge their learning and accomplish what used to take years in a matter of months.

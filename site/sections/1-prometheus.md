@@ -1,6 +1,7 @@
 ---
 tags: section
 title: Accidental Prometheans
+date: 2019-01-01
 ---
 
 Among the many stories we hear while growing up, there lies the myth of Prometheus, the original upstart rebel, who stole fire from the gods and shared it with humankind. And he didn’t just steal a book of matches, but also the power to seed civilisation: language, art, medicine, and technology. Enraged that mortals would now have the same power as the gods, Zeus chained Prometheus to a rock, letting eagles rip out his innards for eternity.
