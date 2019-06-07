@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "gulp watch & npx eleventy --serve",
-    "now-build": "npx eleventy"
+    "now-build": "npx eleventy",
+    "deploy:prod": "now --target production"
   },
   "author": "Fardeem Munir",
   "license": "MIT"
