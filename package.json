@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-sample",
+  "name": "stealing-fire",
   "version": "1.0.0",
-  "description": "",
+  "description": "A marketing website for MASLab's Stealing Fire workshop",
   "devDependencies": {
     "gulp": "^4.0.2",
     "@11ty/eleventy": "^0.8.3",
