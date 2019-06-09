@@ -7,14 +7,15 @@
 .group {
   margin: 0 auto;
   padding: 0 2rem;
-  border-image: linear-gradient(to bottom, #FF5722, #2996bf, #ad51a3) 1 100%;
+  border-image: linear-gradient(to bottom, #ff5722, #2996bf, #ad51a3) 1 100%;
   margin-bottom: 2rem;
 
   @media screen and (min-width: 700px) {
     transform: skew(-2deg);
   }
 
-  p {
+  p,
+  ul {
     @media screen and (min-width: 700px) {
       transform: skew(2deg);
     }
