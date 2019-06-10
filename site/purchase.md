@@ -27,4 +27,12 @@ Account Type: Merchant Account
 Reference: Use your phone number  
 Counter No: 1
 
-If you're using the bKash app, use the _make payment_ option.
+# Making the Payment
+
+**Using the bKash app**
+Go to the _make payment_ option. Use the number above and approve the transaction. You will see a transaction ID once your transaction is complete.
+
+**If you don't have a bKash account**
+Go to a local merchant (like a guy at a nearby store where they process bkash payments.) Tell them you want to send money using bkash. Give them the details above. After they are done, ask for the transaction number.
+
+If you have questions, call 01730716522‬
