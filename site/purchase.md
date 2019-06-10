@@ -26,3 +26,5 @@ Number: 01924016037
 Account Type: Merchant Account  
 Reference: Use your phone number  
 Counter No: 1
+
+If you're using the bKash app, use the _make payment_ option.
