@@ -5,7 +5,9 @@ layout: layouts/text.njk
 # Purchase a Ticket
 
 Early Bird Ticket Price: **2500 tk.**  
-_Early Bird pricing ends on the 15th June, 2019_
+_Early Bird pricing ends on the 16th June, 2019 at 11:59pm_
+
+Regular Ticket Price: **3000 tk**
 
 ---
 
