@@ -1,5 +1,6 @@
 ---
 tags: section
+id: s2
 title: Accidental Prometheans
 image: /assets/prometheus.jpg
 date: 2019-01-02

@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
+
 <section class="s-lead">
   <div class="container">
     <p class="s-lead__desc">
@@ -13,10 +14,18 @@ layout: layouts/base.njk
 
       <dt>Time</dt>
       <dd>{{ site.time }}</dd>
-  
+
       <dt>Location</dt>
       <dd>{{ site.location }}</dd>
-    </dl> 
+    </dl>
+
+    <div class="s-lead__nav">
+      <a href="/#s1">Philosophy</a>
+      <a href="/#s3">Accelerated Learning</a>
+      <a href="/#s5">Results</a>
+      <a href="/#s6">Meet the Mentors</a>
+      <a href="/faq">FAQ</a>
+    </div>
   </div>
 </section>
 
@@ -27,25 +36,37 @@ layout: layouts/base.njk
       <a href="/purchase">
         Buy tickets now
       </a>
-    </button> 
+    </button>
   </div>
 </section>
 
-<section class="s-features">
+<section id="#philosophy" class="s-features">
   <div class="container">
-    {%- for section in collections.section -%}
-      {% if section.data.image %}
-        <img src="{{ section.data.image }}" alt="">
-      {% endif %}  
-    
-      <div class="group container--text">
-        {% if section.data.title %}
-          <h1>{{ section.data.title }}</h1>
-        {% endif %}
-        
-        {{ section.templateContent | safe }}
-      </div>
-      
+    {%- for section in collections.section -%} {% if section.data.image %}
+    <img src="{{ section.data.image }}" alt="" />
+    {% endif %}
+
+    <div id="{{ section.data.id }}" class="group container--text">
+      {% if section.data.title %}
+      <h1>{{ section.data.title }}</h1>
+      {% endif %}
+
+      {{ section.templateContent | safe }}
+    </div>
+
+    {%- endfor -%}
+  </div>
+</section>
+
+<section class="s-teachers">
+  <div class="container">
+    {%- for section in collections.teachers -%}
+
+    <div class="grid__item"> 
+      <h1>{{ section.data.name }}</h1>
+      <p>{{ section.data.position }}</p>
+    </div>
+
     {%- endfor -%}
   </div>
 </section>
@@ -56,15 +77,16 @@ layout: layouts/base.njk
 
     <dl class="s-lead__list">
       {%- for question in collections.faq -%}
-        
-        <dt>{{ question.data.question }}</dt>
-        <dd>{{ question.templateContent | safe }}</dd>
+
+      <dt>{{ question.data.question }}</dt>
+      <dd>{{ question.templateContent | safe }}</dd>
 
       {%- endfor -%}
     </dl>
-    
-    <button class="btn"><a href="https://fardeemmunir.typeform.com/to/GZrEuQ">Ask a question</a></button>
-    
+
+    <button class="btn">
+      <a href="https://fardeemmunir.typeform.com/to/GZrEuQ">Ask a question</a>
+    </button>
   </div>
 </section>
 
@@ -73,8 +95,8 @@ layout: layouts/base.njk
     <span>Seats are extremely limited.</span>
     <button class="btn">
       <a href="/purchase">
-        Buy tickets now   
+        Buy tickets now
       </a>
-    </button> 
+    </button>
   </div>
 </section>

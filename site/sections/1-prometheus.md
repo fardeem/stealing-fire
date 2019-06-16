@@ -1,5 +1,6 @@
 ---
 tags: section
+id: s1
 title: The Myth of Prometheus
 image: https://source.unsplash.com/f9bkzNQyylg/800x500
 date: 2019-01-01
