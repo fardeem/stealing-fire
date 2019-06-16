@@ -4,6 +4,7 @@
   > .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
     @media screen and (min-width: 800px) {
       padding: 0;
@@ -22,4 +23,22 @@
     margin-top: 0;
   }
 
+  &__nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 0.8em;
+
+    a {
+      display: inline-block;
+      margin-right: 1em;
+      margin-bottom: 1em;
+      opacity: 0.8;
+      transition: opacity 0.1s;
+    }
+
+    & a:hover {
+      opacity: 1;
+    }
+  }
 }

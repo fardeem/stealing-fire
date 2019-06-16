@@ -4,63 +4,84 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon.png">
-    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon.png" />
+    <meta name="theme-color" content="#000000" />
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap" rel="stylesheet">
-    <style>{% include "css/main.css" %}</style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      {% include "css/main.css" %}
+    </style>
 
-    <meta property="og:title" content="Stealing Fire | Presented By MASLab">
-    <meta property="og:description" content="{{ site.desc}}">
-    <meta property="og:image" content="/assets/stealing-fire-preview.jpg">
+    <meta property="og:title" content="Stealing Fire | Presented By MASLab" />
+    <meta property="og:description" content="{{ site.desc }}" />
+    <meta property="og:image" content="/assets/stealing-fire-preview.jpg" />
 
     <title>Stealing Fire | A Journey Into Accelerated Learning</title>
   </head>
   <body>
     <header class="header">
-      <a href="/"><h1 class="header__title">
-        <span class="char1">S</span>
-        <span class="char2">t</span>
-        <span class="char3">e</span>
-        <span class="char4">a</span>
-        <span class="char5">l</span>
-        <span class="char6">i</span>
-        <span class="char7">n</span>
-        <span class="char8">g</span>
-        <span class="char9"><br /></span>
-        <span class="char10">F</span>
-        <span class="char11">i</span>
-        <span class="char12">r</span>
-        <span class="char13">e</span>
-      </h1></a>
+      <a href="/"
+        ><h1 class="header__title">
+          <span class="char1">S</span>
+          <span class="char2">t</span>
+          <span class="char3">e</span>
+          <span class="char4">a</span>
+          <span class="char5">l</span>
+          <span class="char6">i</span>
+          <span class="char7">n</span>
+          <span class="char8">g</span>
+          <span class="char9"><br /></span>
+          <span class="char10">F</span>
+          <span class="char11">i</span>
+          <span class="char12">r</span>
+          <span class="char13">e</span>
+        </h1></a
+      >
 
       <div class="container">
-        <video playsinline autoplay muted loop poster="/assets/video-still.jpg" id="bgvid" class="header__video">
-          <source src="https://res.cloudinary.com/argot/video/upload/v1560162001/video_k0eg3q.mp4" type="video/mp4">
+        <video
+          playsinline
+          autoplay
+          muted
+          loop
+          poster="/assets/video-still.jpg"
+          id="bgvid"
+          class="header__video"
+        >
+          <source
+            src="https://res.cloudinary.com/argot/video/upload/v1560162001/video_k0eg3q.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
     </header>
 
-
     {{ content | safe }}
-
 
     <footer class="footer">
       <div class="container">
-        Stealing Fire is bought to you by <a href="www.maslab.org">MASLab</a> © 2019 <br />
+        Stealing Fire is bought to you by <a href="www.maslab.org">MASLab</a> ©
+        2019 <br />
         Site by <a href="mailto:fardeem.munir@erubai.com">Fardeem Munir</a>
       </div>
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141363565-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-141363565-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-141363565-1');
+      gtag("config", "UA-141363565-1");
     </script>
-
   </body>
 </html>

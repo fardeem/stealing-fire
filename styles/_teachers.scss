@@ -1,0 +1,23 @@
+.s-teachers {
+  font-size: 1rem;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .grid__item {
+    width: 90%;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    border-top: 1px solid $pink;
+
+    @media screen and (min-width: 800px) {
+      width: 33.333333%;
+    }
+  }
+}
