@@ -24,6 +24,7 @@ layout: layouts/base.njk
       <a href="/#s3">Accelerated Learning</a>
       <a href="/#s5">Results</a>
       <a href="/#s6">Meet the Mentors</a>
+      <a href="/#guest-speakers">Guest Speakers</a>
       <a href="/faq">FAQ</a>
     </div>
   </div>
@@ -63,6 +64,22 @@ layout: layouts/base.njk
     {%- for section in collections.teachers -%}
 
     <div class="grid__item"> 
+      <h1>{{ section.data.name }}</h1>
+      <p>{{ section.data.position }}</p>
+    </div>
+
+    {%- endfor -%}
+  </div>
+</section>
+
+<section id="guest-speakers" class="s-teachers">
+<h1 style="font-size: 3em; text-align: center;">Guest Speakers</h1>
+  <div class="container">
+    
+    {%- for section in collections.guests -%}
+
+    <div class="grid__item"> 
+      <img src={{ section.data.img }} />
       <h1>{{ section.data.name }}</h1>
       <p>{{ section.data.position }}</p>
     </div>
