@@ -4,17 +4,13 @@ layout: layouts/text.njk
 
 # Purchase a Ticket
 
-Early Bird Ticket Price: **2500 tk.**  
-_Early Bird pricing ends on the 18th June, 2019 at 11:59pm_
-
-Regular Ticket Price: **3000 tk**  
-_Regular price will be effective from 19th June, 2019_
+Ticket Price: **3000 tk**
 
 ---
 
 To participate in the upcoming Stealing Fire workshop, you have to fill out [this form](https://forms.gle/cr6VfYJ5Z7rwPoKQ9). The instructions are as follows:
 
-1. Send 2500 tk (Two Thousand Five Hundred) to the bKash number. Details below.
+1. Send 3000 tk (Two Thousand Five Hundred) to the bKash number. Details below.
 2. Note the bKash transaction number.
 3. Please give the transaction number in this form.
 
