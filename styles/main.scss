@@ -10,3 +10,22 @@ $black: #142e3b;
 @import "./teachers";
 @import "./faq";
 @import "./footer";
+
+.sponsors {
+  display: flex;
+  justify-content: space-evenly;
+
+  img {
+    display: block;
+    max-width: 250px;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+  }
+}
+
+.amber-sponsor {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+}
