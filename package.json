@@ -4,7 +4,7 @@
   "description": "A marketing website for MASLab's Stealing Fire workshop",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^1.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-sass": "^4.0.2"
   },
